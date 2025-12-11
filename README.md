@@ -29,6 +29,21 @@
   - Bitbucket      <br>
 -Connected using 
 >git remote add origin <repository_url>
+
+- Tracked Repo
+-Git can tracked these files.
+<br>
+- Untracked Repo
+-means git can not track these files.
+-Or new files that git doesn't tracked yet.
+<br>
+- modified
+  <br>
+- unmodified
+  file is unchanged.
+  <br>
+- staged
+-file is ready to commit.
 ### To generate an account on GitHub go to https://github.com
 -Create your accound by giving the required details. <br>
 -Then create your account.
@@ -47,8 +62,9 @@
 >git --version
 #### Configuring Git
 -To config git we write <br>
->git config --global user.name"my_Name" <br>
->git config --global user.email"shaoodell@email.com"<br>
+>git config --global user.name"my_Name" <br> <br>
+>git config --global user.email"shaoodell@email.com"<br><br>
+---
 -To see all configuration setting run <br>
 >git config --list
 ### Commit:
@@ -56,16 +72,41 @@
 ### Clone:
 -Cloning a repository on our local machine
 >git clone <---put the link here.....>
-### To move inside another folder
+### To move inside another folder <br>
 > cd folderName
+> <br>
 -To clear terminal
 > clear <br>
+<br>
+
 -To watch all file list
-> ls
--To watch all file including out hidden file
-> ls -a
-### Git Status:
--
+> ls <br>
+
+-To watch all file including out hidden file  <br>
+> ls -a <br>
+
+### Complete Git flow:
+![img1.png](img1.png)
+
+### ADD and Commit
+- ***ADD:***
+  -adds new or changed files in your working directory to the git staging area. <br>
+  >git add <-fileName-->  or simply [git add.] (for all file at a time)
+  <br>
+- ***Commit:***
+  >git commit -m "some message"
+<br>
+### Push Command
+-Upload local repo content to remote repo.<br>
+>git push origin main
+
+## To start with our local repo
+- init: used to create a new git repo <br>
+- git remote add origin <---link....> <br>
+- git remote -v (to verify remote)
+- git branch (to check branch)
+- git branch -M main (to rename branch)
+- git push origin main
 
 
 

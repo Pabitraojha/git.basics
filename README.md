@@ -29,6 +29,43 @@
   - Bitbucket      <br>
 -Connected using 
 >git remote add origin <repository_url>
+### To generate an account on GitHub go to https://github.com
+-Create your accound by giving the required details. <br>
+-Then create your account.
+### To create a new repo
+-Sign in to your account tap new repo. <br>
+-Give your repo name.<br>
+-Then select public or private according to you.<br>
+-Add readme.md(here md means markdown) for details.<br>
+-Then tap create.
+### Setting up Git
+-It work on our system.<br>
+-Download VS code.<br>
+-for Windows (Git Bash)<br>
+-for mac(Terminal)<br>
+-For Verify run
+>git --version
+#### Configuring Git
+-To config git we write <br>
+>git config --global user.name"my_Name" <br>
+>git config --global user.email"shaoodell@email.com"<br>
+-To see all configuration setting run <br>
+>git config --list
+### Commit:
+-It saved our changes with message.
+### Clone:
+-Cloning a repository on our local machine
+>git clone <---put the link here.....>
+### To move inside another folder
+> cd folderName
+-To clear terminal
+> clear <br>
+-To watch all file list
+> ls
+-To watch all file including out hidden file
+> ls -a
+### Git Status:
+-
 
 
 

@@ -32,49 +32,77 @@
 
 - Tracked Repo
 -Git can tracked these files.
+
 <br>
+
 - Untracked Repo
--means git can not track these files.
--Or new files that git doesn't tracked yet.
+  
+ -means git can not track these files.
+ -Or new files that git doesn't tracked yet.
+
 <br>
+
 - modified
   <br>
+  
 - unmodified
   file is unchanged.
   <br>
+  
 - staged
 -file is ready to commit.
 ### To generate an account on GitHub go to https://github.com
--Create your accound by giving the required details. <br>
+
+-Create your accound by giving the required details.
+<br>
 -Then create your account.
 ### To create a new repo
--Sign in to your account tap new repo. <br>
--Give your repo name.<br>
--Then select public or private according to you.<br>
--Add readme.md(here md means markdown) for details.<br>
+-Sign in to your account tap new repo. 
+<br>
+-Give your repo name.
+<br>
+-Then select public or private according to you.
+<br>
+-Add readme.md(here md means markdown) for details.
+<br>
 -Then tap create.
+
+
 ### Setting up Git
--It work on our system.<br>
--Download VS code.<br>
--for Windows (Git Bash)<br>
--for mac(Terminal)<br>
+-It work on our system.
+<br>
+-Download VS code.
+<br>
+-for Windows (Git Bash)
+<br>
+-for mac(Terminal)
+<br>
 -For Verify run
 >git --version
+
 #### Configuring Git
--To config git we write <br>
->git config --global user.name"my_Name" <br> <br>
+-To config git we write 
+<br>
+>git config --global user.name"my_Name"
+<br> <br>
 >git config --global user.email"shaoodell@email.com"<br><br>
 ---
--To see all configuration setting run <br>
+
+-To see all configuration setting run 
+<br>
 >git config --list
+
 ### Commit:
 -It saved our changes with message.
+
 ### Clone:
 -Cloning a repository on our local machine
 >git clone <---put the link here.....>
+
 ### To move inside another folder <br>
 > cd folderName
-> <br>
+>
+<br>
 -To clear terminal
 > clear <br>
 <br>
@@ -90,7 +118,8 @@
 
 ### ADD and Commit
 - ***ADD:***
-  -adds new or changed files in your working directory to the git staging area. <br>
+  -adds new or changed files in your working directory to the git staging area.
+   <br>
   >git add <-fileName-->  or simply [git add.] (for all file at a time)
   <br>
 - ***Commit:***

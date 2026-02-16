@@ -6,6 +6,11 @@
 - Popular
 - free and open source
 - fast and scalable
+- Track code changes
+- Save project history
+
+### Install git
+- Download from: [click here](https://git-scm.com/install)
 
 ### GitHub:
 ---

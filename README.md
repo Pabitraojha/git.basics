@@ -1,3 +1,4 @@
+<!-- Part-1 -->
 # Git and GitHub basics
 ### Git:
 ---
@@ -10,14 +11,14 @@
 - Save project history
 
 ### Install git
-- Download from: [click here](https://git-scm.com/install)
-
-### GitHub:
----
--GitHub is a popular platform use for storing our works. It is a cloud based platform that uses Git to store, manage, and share code. <br>
--It allows developers to collaborate, track changes adn work together on projects.
--Aleternate of Github is Gitlab and Bitbucket more..
-
+- Download from: [here](https://git-scm.com/install)
+after download you can check git version in your command prompt.
+> git --version
+### Git configuration(First Setup)
+> git config --global user.name " your Name" <br>
+> git config --global user.email "yourabc@gmail.com" <br>
+- You can check your git config by
+> git config --list
 ### Repository:
 ---
 -A Git repository(repo) is a storage space where our entire project file and their enitre changes history are kept. <br>
@@ -27,6 +28,38 @@
 -It contains our project files and the full git history. <br>
 -It is created by using
 >git init
+
+-Check your git Status:
+>git status
+
+-Add files to staging:
+- add one file
+>git add index.html
+- add all file at a time
+>git add.
+
+- Commit changes:(commit means saving a snapshot)
+>git commit -m "initial commit"
+
+- View commit history
+>git log
+
+-Short form
+>git log --oneline
+
+### Complete Git flow:
+![img1.png](img1.png)
+
+<!-- Part-2 -->
+
+
+### GitHub:
+---
+-GitHub is a popular platform use for storing our works. It is a cloud based platform that uses Git to store, manage, and share code. <br>
+-It allows developers to collaborate, track changes adn work together on projects.
+-Aleternate of Github is Gitlab and Bitbucket more..
+
+
 #### Remote Repo:
 -It exist on the internet or a server, usually hosted on platforms like:
   - GitHub
@@ -118,8 +151,6 @@
 -To watch all file including out hidden file  <br>
 > ls -a <br>
 
-### Complete Git flow:
-![img1.png](img1.png)
 
 ### ADD and Commit
 - ***ADD:***
